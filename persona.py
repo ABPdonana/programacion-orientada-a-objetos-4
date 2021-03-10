@@ -1,6 +1,6 @@
 class Persona():
 
-    def _init_(self, nombre, edad):
+    def __init__(self, nombre, edad):
         self.__nombre = nombre
         self.__edad = edad
 
@@ -15,5 +15,5 @@ class Persona():
             print(f"{otro.nombre()} es más joven que yo.")
         if self.edad() < otro.edad():
             print(f"{otro.nombre()} es más viejo que yo.")
-        else
+        else:
             print(f"{otro.nombre()} tiene la misma edad que yo.")
