@@ -13,7 +13,7 @@ class Persona():
     def compara_edad(self, otro):
         if self.edad() > otro.edad():
             print(f"{otro.nombre()} es más joven que yo.")
-        if self.edad() < otro.edad():
+        elif self.edad() < otro.edad():
             print(f"{otro.nombre()} es más viejo que yo.")
         else:
             print(f"{otro.nombre()} tiene la misma edad que yo.")
